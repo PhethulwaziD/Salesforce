@@ -1,0 +1,26 @@
+Create A Saleforsce Project
+Ctrl+Shift+P -> sfdx -> select (create Project) -> select (standard) -> name the Project
+
+Authorizing Dev Hub
+Ctrl+Shift+P -> select (Authorize Dev Hub) 
+
+Creating A Scratch Org
+Ctrl+Shift+P -> select (Create A Default Scratch Org)
+
+
+
+
+Commands
+Creating A Lightning Web Component
+sfdx force:lightning:component:create -n <component_name> -d force-app/main/default/lwc --type lwc
+
+-n: defines name of Lightning web component folder and files.
+
+-d — defines target directory where Lightning web component should be created, must be name lwc
+
+--type — Specifies that you want to create a Lightning Web Component.(Specifies component type)
+
+sfdx force:lightning:component:create -n myFirstWebComponent -d force-app/main/default/lwc --type lwc
+
+
+.eslintrc: The configuration file, that defines the Salesforce-specific linting rules
